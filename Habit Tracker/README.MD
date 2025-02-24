@@ -8,10 +8,14 @@ This Python script automates tracking daily coding hours using the **Pixela API*
 ---
 
 ## 🔧 Requirements
-- **Python 3.x**  
-- **requests** library (install using `pip install -r requirements.txt`)  
+- **Python 3.x** (Download from [python.org](https://www.python.org/downloads/))  
+- **requests** library (install using `pip install requests`)  
 - **A Pixela account** (automatically created by the script)  
 
 ---
 
-## 📂 File Structure
+## 📌 Setup & Usage
+
+### 1️⃣ Install Dependencies  
+Run the following command to install the `requests` module:  
+pip install requests
