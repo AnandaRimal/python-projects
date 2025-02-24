@@ -19,5 +19,3 @@ This Python script **plays creepy sounds** and **displays a scary image in fulls
 - **Image file** (`scr.jpg`)  
 
 ---
-
-## 📂 File Structure
