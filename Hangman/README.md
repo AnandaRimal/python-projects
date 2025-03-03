@@ -1,64 +1,48 @@
-Hangman Game
+# Hangman Game
 
-Description
+## Description
+The Hangman game is a word-guessing game where the player tries to guess a hidden word one letter at a time before running out of lives. The game features visual hangman stages and interactive gameplay.
 
-The Hangman Game is a Python-based word-guessing game where players attempt to guess a hidden word one letter at a time. The player has a limited number of lives and loses a life for every incorrect guess. The game ends when the player successfully guesses the word or runs out of lives.
+## Features
+- Randomly selects a word from a predefined list
+- Allows the player to guess letters
+- Tracks guessed letters and prevents duplicate guesses
+- Displays the hangman stages as lives decrease
+- Provides feedback on correct and incorrect guesses
 
-Features
+## How It Works
+1. The program selects a random word from `hangman_words.py`.
+2. The player guesses one letter at a time.
+3. Correct guesses reveal the letters in the word.
+4. Incorrect guesses decrease the number of lives and update the hangman graphic.
+5. The player wins by guessing all letters correctly before running out of lives.
+6. The player loses if all lives are depleted before guessing the word.
 
-Randomly selects a word from a predefined list.
-
-Tracks guessed letters to avoid duplicate guesses.
-
-Displays a visual representation of the hangman with each incorrect guess.
-
-Ends the game when the word is fully guessed or the player runs out of lives.
-
-How It Works
-
-A random word is chosen at the start of the game.
-
-The player inputs a letter guess.
-
-If the letter is in the word, it is revealed in the correct position(s).
-
-If the letter is not in the word, the player loses a life.
-
-The game continues until the word is guessed or all lives are lost.
-
-Example Output
-
-Guess a letter: e
-Good guess! The word so far: _ e _ _ _
-
+## Example Output
+```
+Welcome to Hangman!
 Guess a letter: a
-You guessed 'a', which is not in the word. You lose a life.
+Good guess! The word so far: _ a _ _ _
 
-You lose.
+Guess a letter: x
+You guessed 'x', which is not in the word. You lose a life.
+
+You win!
 The word was: apple
+```
 
-Installation & Usage
+## Installation & Usage
+1. Ensure you have Python installed (Python 3 recommended).
+2. Save the script as `hangman.py` and include `hangman_words.py` and `hangman_art.py`.
+3. Run the script:
+   ```sh
+   python hangman.py
+   ```
 
-Ensure Python is installed (Python 3 recommended).
+## Notes
+- The game uses predefined words from `hangman_words.py`.
+- Hangman graphics are stored in `hangman_art.py`.
 
-Save the script as hangman.py.
-
-Create hangman_words.py containing a list of words.
-
-Create hangman_art.py containing ASCII art for the hangman.
-
-Run the script:
-
-python hangman.py
-
-Notes
-
-The game is case-insensitive (treats uppercase and lowercase the same).
-
-Only single-letter alphabetical inputs are accepted.
-
-License
-
+## License
 This project is open-source and free to use for fun purposes!
-
 
