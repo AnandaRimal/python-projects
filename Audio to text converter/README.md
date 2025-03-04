@@ -40,7 +40,7 @@ python speech_recognition.py
 ```
 
 ## Notes
-- Requires an internet connection for Google Speech Recognition.
+- Requires an internet connection for Google Speech Recognition
 - Ensure your microphone is enabled and working.
 - Background noise may affect recognition accuracy.
 
